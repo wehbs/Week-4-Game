@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Link to external javaScript -->
+  <script src="assets/javascript/game.js" type="text/javascript"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Crystals Collector</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <br>
+    <!-- First row -->
+    <div class="row">
+      <div class="col-md-8">
+        <div class="jumbotron jumbo">
+          <h1>Crystals Collector!</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Second row -->
+    <div class="row">
+      <div class="col-md-4 mainpara">
+        <p>You will be given a random number at the start of the game.</p>
+
+        <p>There are four crystals below. By clicking on a crystal you add a specific amount of points to your total score</p>
+
+        <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number</p>
+
+        <p>The value of each crystal is hidden from you until you click on it</p>
+
+        <p>Each time when the game starts, the game will change the values of each crystal</p>
+      </div>
+    </div>
+    <br>
+    <!-- Third row -->
+    <div class="row">
+      <div class="col-md-2">
+        <div class="randonum">
+          <p id="randonum">0</p>
+        </div>
+      </div>
+      <div class="col-md-1 wl">
+        <div class="row">
+          <div class="col-md-6">
+            <p>Wins </p>
+          </div>
+          <div class="col-md-6">
+            <p id="wins">0</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p>Losses </p>
+          </div>
+          <div class="col-md-6">
+            <p id="losses">0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- Fourth row -->
+    <div class="row">
+
+      <button type="button" name="button" id="buttone">
+<div class="col-md-1">
+<img src="assets/images/1.png" alt="">
+</div>
+</button>
+
+      <button type="button" name="button" id="butttwo">
+<div class="col-md-1">
+<img src="assets/images/2.png" alt="">
+</div>
+</button>
+
+      <button type="button" name="button" id="buttthree">
+<div class="col-md-1">
+<img src="assets/images/3.png" alt="">
+</div>
+</button>
+
+      <button type="button" name="button" id="buttfour">
+<div class="col-md-1">
+<img src="assets/images/4.png" alt="">
+</div>
+
+</div>
+<br>
+<!-- Fifth row -->
+<div class="row">
+<div class="col-md-2 totalscore">
+<p>Your total score is: </p>
+</div>
+</div>
+<!-- Sixth row -->
+<div class="row">
+<span id="score" class="score">0</span>
+</div>
+<br>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+body {
+    background-color: #543BCD;
+}
+
+
+img {
+  height: 70px;
+  width: auto;
+}
+
+button {
+  background-color: transparent;
+}
+
+.jumbo {
+  color: white;
+  background-color: orange;
+}
+
+
+.mainpara {
+    color: green;
+    background-color: tan;
+}
+
+.randonum {
+    color: purple;
+    background-color: green;
+    font-size: 40px;
+}
+
+.wl {
+    background-color: teal;
+    font-size: 13px;
+}
+
+.totalscore {
+    background-color: #1BA35F;
+    color: white;
+    font-size: 18px;
+}
+
+.score {
+    font-size: 50px;
+    color: white;
+}
