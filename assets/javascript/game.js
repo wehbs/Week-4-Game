@@ -14,7 +14,6 @@ $(document).ready(function() {
 
   var crystalArr = [];
   var crystalSum = 0;
-  // var crystalSumArrAdd = [];
 
   // Counters
   var wins = 0;
